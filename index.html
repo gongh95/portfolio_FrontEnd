@@ -1,30 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
-    <title>Gonzalo Silvero</title>
-</head>
-<body>
-    <header>
-        <h1>Título</h1>
-        <nav>
-            <div>Logo</div>
-            <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-            </ul>
-        </nav>
-    </header>
-    <main>
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./scss/styles.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Gonzalo Silvero</title>
+</head>
+
+<body>
+
+
+  <div class="container border border-1 border-dark rounded">
+
+    <header class="row rounded-top">
+      <h1 class="col-7 text text-opacity-75 text-center">Título</h1>
+      <nav>
+        <div class="col-7 text-center fs-4">Logo</div>
+        <ul class="row">
+          <li class="col-sm-4">Item 1</li>
+          <li class="col-sm-4">Item 2</li>
+          <li class="col-sm-4">Item 3</li>
+          <div class="col-4 text-center">Subtitulo</div>
+        </ul>
+      </nav>
+    </header>
+    <main class="row">
+      <p class="col-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione mollitia soluta nulla ullam illum labore
+        possimus expedita asperiores quis sunt nesciunt, id minus consequuntur facilis perferendis quaerat, dicta iure
+        amet?
+        Commodi quia ullam impedit non asperiores eligendi alias ut, quaerat recusandae et similique, doloremque quam
+        perspiciatis iure fugit, quo expedita nesciunt velit vel a. At aliquid magnam ut dolor in.
+        Esse tempora accusantium, iusto quod tempore alias eligendi, repudiandae beatae asperiores rerum sequi recusandae.
+        Ipsam dolore ad aspernatur. Dolorum aut adipisci fugiat nesciunt in laborum, dicta minima quia aliquam vitae.</p>
+      <p class="col-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione mollitia soluta nulla ullam illum labore
+        possimus expedita asperiores quis sunt nesciunt, id minus consequuntur facilis perferendis quaerat, dicta iure
+        amet?</p>
     </main>
-    <footer>
-        <p>Footer de la página</p>
+    <footer class="row rounded-bottom">
+      <p>Footer de la página</p>
     </footer>
 
+  </div>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>

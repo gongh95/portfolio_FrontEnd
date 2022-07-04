@@ -1,0 +1,26 @@
+body {
+    background-color: blanchedalmond;
+}
+
+ul {
+    background-color: #f2d3f0;
+    padding-inline-start: 0;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    background-color: #c4a3a3;
+}
+
+header {
+    background-color: #ccc;
+}
+
+main {
+    background-color: antiquewhite;
+}
+
+footer {
+    background-color: #a0c6a0;
+}
