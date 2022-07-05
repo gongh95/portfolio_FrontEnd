@@ -1,26 +1,58 @@
-body {
-    background-color: blanchedalmond;
+:root {
+    --menu-argentina: #00358e;
 }
 
-ul {
+body {
+    background-color: #e8e8e8;
+}
+
+.inti-container {
+    background-color: var(--menu-argentina);
+}
+
+.inti-container img {
+    max-width: 200px;
+    height: auto;
+}
+
+h3 {
+    padding-left: 7%;
+}
+
+a {
+    transition: all .2s;
+}
+
+a:hover {
+    color: #fff !important;
+}
+
+/* ul {
     background-color: #f2d3f0;
     padding-inline-start: 0;
-}
-
-li {
-    list-style-type: none;
-    text-align: center;
-    background-color: #c4a3a3;
-}
+} */
 
 header {
-    background-color: #ccc;
+    background-color: #161616;
+    /* background: linear-gradient(to bottom, #161616 75%, transparent); */
+}
+
+.btn-login {
+    transition: all .2s;
+    background-color: transparent;
+    /* border: 1px solid #e8e8e8; */
+    height: 2.5em;
+}
+
+.btn-login:hover {
+    background-color: #24204b;
+    color: #fff !important;
 }
 
 main {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 footer {
-    background-color: #a0c6a0;
+    background: linear-gradient(to top, #3e336a 75%, transparent);
 }
